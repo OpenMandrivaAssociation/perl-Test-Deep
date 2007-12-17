@@ -17,7 +17,6 @@ Buildrequires:	perl-devel
 BuildRequires:	perl(Test::Tester)
 BuildRequires:	perl(Test::NoWarnings)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Test::Deep gives you very flexible ways to check that the result you got is the
