@@ -1,9 +1,9 @@
 %define upstream_name	 Test-Deep
-%define upstream_version 0.106
+%define upstream_version 0.108
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	Extremely flexible deep comparison
 License:	GPL+ or Artistic
