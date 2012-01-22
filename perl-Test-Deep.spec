@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 4
 
 Summary:	Extremely flexible deep comparison
 License:	GPL+ or Artistic
@@ -11,9 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
 
-%if %{mdkversion} < 1010
 Buildrequires:	perl-devel
-%endif
 BuildRequires:	perl(Test::NoWarnings)
 BuildRequires:	perl(Test::Tester)
 BuildArch:	noarch
