@@ -39,7 +39,7 @@ loop.
 %doc CHANGES README TODO
 %{perl_vendorlib}/Test/Deep
 %{perl_vendorlib}/Test/Deep.pm
-%{perl_vendorlib}/Test/Deep.pod
+# %{perl_vendorlib}/Test/Deep.pod
 %{_mandir}/man3/*
 
 
