@@ -36,7 +36,7 @@ loop.
 %makeinstall_std
 
 %files
-%doc CHANGES README TODO
+%doc  README TODO
 %{perl_vendorlib}/Test/Deep
 %{perl_vendorlib}/Test/Deep.pm
 # %{perl_vendorlib}/Test/Deep.pod
