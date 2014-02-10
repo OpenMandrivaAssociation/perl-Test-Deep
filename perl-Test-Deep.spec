@@ -1,5 +1,5 @@
 %define modname	Test-Deep
-%define modver 0.110
+%define modver 0.112
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
@@ -41,5 +41,6 @@ loop.
 %{perl_vendorlib}/Test/Deep.pm
 # %{perl_vendorlib}/Test/Deep.pod
 %{_mandir}/man3/*
+
 
 

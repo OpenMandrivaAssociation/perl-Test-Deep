@@ -1,4 +1,5 @@
 removed_sources:
   Test-Deep-0.108.tar.gz: 7505cfc6d68ab508cc671fa82c2a5b024ec33e95
-sources:
   Test-Deep-0.110.tar.gz: b74b060e46d6179bc9ca208afd1dbe198962662e
+sources:
+  Test-Deep-0.112.tar.gz: 8f68bd1337e3d7a7d2853d7c84f6574798357281
