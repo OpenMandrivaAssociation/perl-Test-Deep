@@ -1,14 +1,14 @@
 %define modname	Test-Deep
-%define modver 0.112
+%define modver 0.113
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Test/Test-Deep-%{modver}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 Buildrequires:	perl-devel
 BuildRequires:	perl(Test::NoWarnings)
@@ -41,6 +41,3 @@ loop.
 %{perl_vendorlib}/Test/Deep.pm
 # %{perl_vendorlib}/Test/Deep.pod
 %{_mandir}/man3/*
-
-
-
