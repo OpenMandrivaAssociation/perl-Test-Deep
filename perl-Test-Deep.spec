@@ -1,10 +1,10 @@
 %define modname	Test-Deep
-%define modver 0.113
+%define modver 0.114
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -26,7 +26,7 @@ loop.
 %setup -qn %{modname}-%{modver}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 %make
 
 %check
