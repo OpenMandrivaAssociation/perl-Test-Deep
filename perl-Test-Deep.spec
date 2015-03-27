@@ -1,5 +1,5 @@
 %define modname	Test-Deep
-%define modver 0.114
+%define modver 0.115
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
