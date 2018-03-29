@@ -1,14 +1,16 @@
 %define modname	Test-Deep
-%define modver 0.114
+
+# Avoid nasty build dependency loop
+%define dont_gprintify 1
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	2
+Version:	1.127
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-%{version}.tar.gz
 BuildArch:	noarch
 Buildrequires:	perl-devel
 BuildRequires:	perl(Test::NoWarnings)
@@ -23,7 +25,7 @@ also handles circular data structures without getting caught in an infinite
 loop.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%setup -qn %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
