@@ -5,8 +5,8 @@
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
-Version:	1.127
-Release:	2
+Version:	1.128
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
