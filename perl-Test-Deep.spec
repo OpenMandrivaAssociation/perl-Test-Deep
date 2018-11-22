@@ -6,10 +6,10 @@
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
 Version:	1.128
-Release:	2
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		http://metacpan.org/pod/Test::Deep
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-%{version}.tar.gz
 BuildArch:	noarch
 Buildrequires:	perl-devel
