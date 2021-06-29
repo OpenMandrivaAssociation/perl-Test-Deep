@@ -5,8 +5,8 @@
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
-Version:	1.128
-Release:	3
+Version:	1.130
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::Deep
@@ -25,7 +25,7 @@ also handles circular data structures without getting caught in an infinite
 loop.
 
 %prep
-%setup -qn %{modname}-%{version}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
