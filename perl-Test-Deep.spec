@@ -9,7 +9,7 @@ Version:	1.204
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::Deep
+Url:		https://metacpan.org/pod/Test::Deep
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-%{version}.tar.gz
 BuildArch:	noarch
 Buildrequires:	perl-devel
