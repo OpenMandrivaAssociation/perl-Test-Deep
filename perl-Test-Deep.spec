@@ -5,8 +5,8 @@
 
 Summary:	Extremely flexible deep comparison
 Name:		perl-%{modname}
-Version:	1.204
-Release:	2
+Version:	1.205
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Deep
